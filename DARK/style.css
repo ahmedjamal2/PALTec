@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgba(240, 240, 240, 0.842);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 90px;
+}
+
+.main-pltl-logo {
+    width: 180px;
+    height: 60px;
+    background: url(/DARK/images/Blue\ Purple\ Modern\ Molecule\ Technology\ Logo\ \(1\).png) center center no-repeat;
+    background-size: 55%;
+    display: inline-flex;
+    margin-top: 14px;
+}
+/*
+.logo {
+    text-decoration: none;
+    color: #6e888fd7;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+*/
+.logo span {
+    color: rgb(167, 110, 110);
+}
+
+.navigation a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 25px;
+
+}
+
+.navigation a:hover {
+    color: #601cfc;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.Main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(images/تصميم\ بدون\ عنوان.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Main h1 {
+    color: #022179;
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 0.5px;
+
+
+}
+
+.Main span {
+    color: #a42593;
+}
+
+.Main h5 {
+
+    color: rgb(0, 2, 5);
+    font-size: 1.2em;
+    font-weight: 900;
+    margin-bottom: 5px;
+    padding-left: 25px;
+}
+
+.main-btn {
+    color: #601cfc;
+    background-color: #211835;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    transition: 0.7s ease;
+    margin-left: 40px;
+
+}
+
+.main-btn:hover {
+    background-color: rgb(0, 88, 59);
+    transform: scale(1.1);
+}
+
+.img {
+    margin-left: 700px;
+
+}
+
+.social {
+    color: #601cfc;
+    font-size: 1.7em;
+    padding: right 10px;;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #601cfc;
+    font-size: 3em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*Services*/
+.services {
+    background-color: rgb(192, 188, 194);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.services h2 {
+    color: rgb(15, 15, 15);
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.heading h2 {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.services .service {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    transition: 1s linear;
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
+    -ms-transition: 1s linear;
+    -o-transition: 1s linear;
+}
+
+.services .service .serv {
+    margin-bottom: 30px;
+    border: 1px solid yellowgreen;
+    padding: 40px 20px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.services .service .serv span {
+    font-weight: 800;
+    color: #000;
+
+}
+
+.services .service .serv:hover {
+    background-color: khaki;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+
+.services .service .serv:hover i {
+    color: rosybrown;
+}
+
+.services .service .serv i {
+    color: crimson;
+    font-size: 40px;
+}
+
+.services .service .serv h3 {
+    margin: 20px;
+}
+
+
+/*END Services*/
+
+/*Contact*/
+section {
+    padding: 40px 15%;
+    background: #101010;
+
+}
+
+.contact-section {
+    background-image: url(images/web-contact-us-icons-blue-background-contact-us-cutomer-support-concept-cocont.jpg);
+    background-size: cover;
+    justify-content: center;
+    padding-top: 80px;
+    background-position: center;
+  
+}
+ 
+.contact-section h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #6e888fd7;
+    
+}
+ 
+span {
+    text-align: center;
+    color: #a76e6e;
+
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-form-btn:hover{
+    background: #2980b9;
+
+}
+
+@media (max-width:1023px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    .navigation a {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .Main {
+        width: 100%;
+        height: 400px;
+        background-image: url('images/تصميم\ بدون\ عنوان.png');
+        background-size: 200% 100%;
+    }
+    .Main h5 {
+        padding-left: 10pt;
+        
+        }
+    
+    .main-btn {
+        margin-left: 20px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services .service {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+
+    .contact-form form .btn {
+        margin-left: 1%;
+    }
+    
+
+    .contact-form h1 {
+        font-size: 38px;
+        margin-left: 40px;
+    }
+
+}
+
+
+@media (max-width:641px) {
+    body {
+        font-size: 9px;
+    }
+
+}
+
